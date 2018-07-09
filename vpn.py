@@ -70,4 +70,4 @@ except:
         pass
     while x.poll() != 0:
         time.sleep(1)
-    print '\nVPN terminated'
+    print('\nVPN terminated')
